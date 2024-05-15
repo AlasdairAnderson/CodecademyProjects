@@ -1,0 +1,37 @@
+*{
+    font-family: Helvetica;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-image: url("./pictures/TileBanner.png");
+    font-size:  100px;
+    font-weight: bold;
+    color: khaki;
+    padding: 20px;
+    text-align: center;
+}   
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#brush h2{
+    background-color: mediumspringgreen;
+}
+
+#frames h2{
+    background-color: lightcoral;
+}
+
+#paint h2{
+    background-color: skyblue;
+}
+
+strong {
+    font-weight: bold;
+    color: blue;
+}

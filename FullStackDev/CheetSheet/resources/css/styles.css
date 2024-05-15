@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    width: 99%;
+    margin: 0 25%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 60px;
+    text-align: center;
+}
+
+header {
+    background-color: #41bfb3;
+    margin: 0;
+}
+
+h1 {
+    height: 200px;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size:  40px;
+    font-style: normal;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    font-style: normal;
+    padding-left: 10px;
+}
+
+article {
+    background-color: #275950;
+    margin: 0;
+}
+
+.section {
+    margin: 10px 10px;
+    background-color: #9BF2EA;
+}
+
+#introduction {
+    margin-top: 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 auto
+}
+
+aside {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: grey;
+}
+
+/* Tables */
+th {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 22px;
+    border:2px solid #275950;
+    background-color: #41BFB3;
+}
+
+td {
+    border: 2px solid #275950;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+}
+
+td p {
+    font-size: 15px;
+    padding: 0;
+}
+
+table {
+    border: 2px solid #275950;
+    margin: 10px 0;   
+}
+
+pre {
+    background-color: rgb(218, 223, 225);
+    font-size: 15px;
+    text-align: center;
+    display: inline;
+}
+
+/* Unordered list */
+li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+figcaption {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: grey;
+}

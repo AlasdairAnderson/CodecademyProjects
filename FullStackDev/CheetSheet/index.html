@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CheetSheet</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="./resources/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>HTML Semantics</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#tags">Tags</a></li>
+                    <li><a href="#tips">Tips</a></li>
+                </ul>
+            </nav>
+            <article>
+                <section id="introduction" class="section">
+                    <h2>INTRODUCTION</h2>
+                    <section>
+                        <p>Semantic HTML, also known as semantic markup, refers to the use of HTML tags that conveys the meaning of the content contained within them.</p>
+                        <p>By adding semantic HTML tags to your pages, you provide additional information that helps define the roles and relative importance to the different parts of the page.</p>
+                        <figure>
+                            <img src="./resources/images/Screenshot from 2024-05-06 13-47-49.png" alt="Differance between non-semantic and semantic HTML">
+                            <figcaption><a href="https://www.semrush.com/blog/semantic-html5-guide/">Source Semrush</a> Diagram of the differance between semantic and non-semantic HTML</figcaption>
+                        </figure>
+                    </section>
+                </section>
+                <section id="tags" class="section">
+                    <h2>TAGS</h2>
+                    <section>
+                        <p>There are multiple tags that can be used to make your HTML code more semantic.</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Tag</th>
+                                    <th>Code</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Main</td>
+                                    <td class="code"><pre>&ltmain&gt &lt/main&gt</pre></td>
+                                    <td><p>The main attribute is used to encapsulate the dominant content within a webpage.</p></td>
+                                </tr>
+                                <tr>
+                                    <td>Footer</td>
+                                    <td class="code"><pre>&ltfooter&gt &lt/footer&gt</pre></td>
+                                    <td>
+                                        <p>The footer attribute is located at the bottom of the page an usually contains information such as contact information, copyright information, terms of use, site map, reference to tope of page links</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Header
+                                    </td>
+                                    <td class="code"><pre>&ltheader&gt &lt/header&gt</pre></td>
+                                    <td>
+                                        <p>The header attribute usually contrains the &lth1&gt to &lth6&gt headings or the &ltnav&gt tag is it is being used for block navigation for the page.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Nav</td>
+                                    <td class="code"><pre>&ltnav&gt &lt/nav&gt</pre></td>
+                                    <td>
+                                        <p>This tag is used to define a block of navigation links such as menus and tables of contents.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Section
+                                    </td>
+                                    <td class="code">
+                                    <pre>&ltsection&gt &lt/section&gt</pre>
+                                    </td>
+                                    <td><p>This tag defines elements in a document, such as chapters, headings, or any other area of the documetn with the same theme.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Article</td>
+                                    <td><pre>&ltarticle&gt &lt/article&gt</pre>
+                                    </td>
+                                    <td>
+                                        <p>
+                                        This tag holds content that makes sense on its own.It can hold content such as articles, blogs, comments, magazines, ect.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Figure
+                                    </td>
+                                    <td class="code"><pre>&ltfigure&gt &lt/figure&gt</pre></td>
+                                    <td>
+                                        <p>This tag is used to encapsulate media such as an imge, illustration, diagram, code snipet, ect. Which is referenced in the main flow of the document.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Figure Caption</td>
+                                    <td class="code">
+                                        <pre>&ltfigcaption&gt &lt/figcation&gt</pre>
+                                    </td>
+                                    <td>
+                                        <p>This tag is added to &ltfigure&gt element to describe the image.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Audio
+                                    </td>
+                                    <td class="code">
+                                        <pre>&ltaudio&gt &lt/audio&gt</pre>
+                                    </td>
+                                    <td>
+                                        <p>This tag is used to embed audio content into a document.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Video</td>
+                                    <td class="code">
+                                        <pre>&ltvideo&gt &lt/video&gt</pre>
+                                    </td>
+                                    <td>
+                                        <p>This tag makes it clear that the developer is attempting to display a video to the user.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Embed
+                                    </td>
+                                    <td>
+                                        <pre>&ltembed/&gt</pre>
+                                    </td>
+                                    <td>
+                                        <p>This tag can embed any media content including videos, audio files, and gifs from an external source.</p>
+                                        <aside>Embed is a self closing tag. It is also a deprecated tag and other alternative should be used in its place.</aside>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>                
+                </section>
+                <section id="tips" class="section">
+                    <h2>TIPS & BEST PRACTICES</h2>
+                    <section>
+                        <h3>Dont' Use Semantic HTML Tags for Styling</h3>
+                        <p>Although web browsers apply styling to many smenatic tags (e.g., the text within an &lta&gt tag is usually blue and underlined), it doesn't mean HTML tas are supposed to be used to style your text.</p>
+                        <p>Don't use an &lta&gt tag for a "non-link" text just to make it blue and underlined, you should not sue other semantic tags for purely sylistic purposes.</p>
+                        <p>Here are some typlical examples of using semantic tags incorrectly:</p>
+                        <ul>
+                            <li>Using a <pre>&lth1&gt</pre> to <pre>&lth6&gt</pre> tag for text that is not a heading with the purpose of changing its font size</li>
+                            <li>Using <pre>&ltblockquote&gt</pre> just to indent text that is not a quotation</li>
+                            <li>Using <pre>&ltstrong&gt</pre> or <pre>&ltem&gt</pre> just to add bold or italics to text that doesn't need emphasis</li>
+                        </ul>
+                        <p>For styling purposes, always use <strong>CSS</strong></p>
+                    </section>
+                    <section>
+                        <h3>Nest the Heading Tags with Semantics in Mind</h3>
+                        <p>Always order header elements by importance.</p>
+                        <figure>
+                            <img src="./resources/images/Screenshot from 2024-05-06 13-47-49.png" alt="Heading higherarchy">
+                            <figcaption><a href="https://www.semrush.com/blog/semantic-html5-guide/">Source Semrush</a> Figure of the heading higherarchy</figcaption>
+                        </figure>
+                        <p>This way, the structure of headings creates a logical hierarchy of topics with your pieve of content and helps both readers and search engines better understand and navigate the text.</p>
+                    </section>
+                    <section>
+                        <h3>Don't Just Copy Your Visual Layout</h3>
+                        <p>Your HTML implementation shouldn't be a mere duplicate of the visual layout. Instead, it should follow the semantic structure of the page.</p>
+                        <figure>
+                            <img src="./resources/images/Screenshot from 2024-05-06 15-51-54.png" alt="Example of not following visual layout">
+                            <figcaption><a href="https://www.semrush.com/blog/semantic-html5-guide/">Source Semrush</a> usage of HTML tags on the left side is incorrect because it indicates that the page contains four different topics, rather than one topic and three subtopics, as shown on the right.<br>On the right-hand side, we have a properly constructed page using semantic HTML. Although there are four separte sections in the visual layout of the page, the HTML tags are nested according to the semantics of the content.</figcaption>
+                        </figure>
+                    </section>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>
