@@ -1,0 +1,190 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 2000px;
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #FFF4EA;
+    margin: 0;
+}
+
+h1 {
+    padding: 100px;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 55px;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+}
+
+
+nav ul li{
+    display: inline;
+    padding: 5px 10px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+nav ul li :hover {
+    color: #3EBDC6;
+    text-decoration: none;
+}
+
+nav ul li :active {
+    color: #000;
+    text-decoration: line;
+}
+
+/* Main */
+main {
+    margin-top: 0;
+}
+
+.topic {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 100px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px;
+    margin: 5px;
+}
+
+h3 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin: 10px 20px;
+}
+
+/* colour section */
+#colour {
+    margin-top: 0;
+}
+.topic-card {
+    display: inline-block;
+    width: 350px;
+    margin: 10px 20px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    
+}
+
+.colorcard-header {
+    margin: 1px 0;
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.colorcard-header-main {
+    margin: 1px 0;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.colorcard-value-name {
+    margin: 1px 0;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.colorcard-value {
+    margin: 1px 0;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 20px;
+}
+
+#bluebirds {
+    background-color: #0096D1;
+    color: #FFF4EA;
+}
+
+#ambrosia {
+    background-color: #FFF4EA;
+    color: #0096D1;
+}
+
+#sweetaqua {
+    background-color: #A8EAD5;
+    color: #3EBDC6;
+}
+
+#panoramablue {
+    background-color: #3EBDC6;
+    color: #FFF4EA;
+}
+
+/* Font Section */
+.oswald p {
+    font-family: "Oswald", sans-serif;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.raleway h3 {
+    font-family: "Raleway", sans-serif;
+}
+
+.sans-serif h3, .sans-serif p {
+    font-family: sans-serif;
+}
+
+/* Paragraph Text */
+
+#textStyles {
+    width: 2000px;
+}
+
+#textStyles h1, #textStyles h2, #textStyles h3 {
+    text-align: left;
+    padding: 0;
+}
