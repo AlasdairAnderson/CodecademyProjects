@@ -5,4 +5,4 @@ In this project I built a website based on a made up business to the design spec
 The goals of this project is to use the flexbox model to customise the layout of the website. 
 This included the uses of multple flexbox properites such as:
 
-<code>felx-basis:, flex-wrap:, justify-content: align-items:, align-content:, flex:
+<code>felx-basis:, flex-wrap:, justify-content: align-items:, align-content:, flex:</code>
