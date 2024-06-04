@@ -1,0 +1,142 @@
+html {
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+}
+
+.sectiontitle {
+    background-color: black;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    max-width: fit-content;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    position: sticky;
+    z-index: 999;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+#headerlogo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+nav {
+    margin-right: 10px;
+}
+
+li {
+    display: inline;
+    align-items: center;
+    padding: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Mission */
+
+#mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1200px;
+    min-height: 700px;
+    background-image: url("./resources/images/img-mission-background.jpg");
+    background-position: center;
+    margin: 0 50px;
+}
+
+#mission .sectiontitle {
+    flex: 1 1200px;
+}
+
+/* Feature Tea */
+
+#featureTea {
+    display: flex;
+    flex-basis: 1200px;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 50px;
+}
+
+#featureTea .sectiontitle {
+    flex: 1 1000px;
+}
+
+.sectionItem {
+    min-height: 200px;
+    flex: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 15px 20px;
+    max-width: 300px;
+}
+
+.sectionItem img {
+    max-width: 300px;
+}
+
+.sectionItem h4 {
+    margin: 10px 0;
+}
+
+/* Locations */
+
+#locations {
+    display: flex;
+    min-height: 500px;
+    flex-basis: 1200px;
+    background-image: url("./resources/images/img-locations-background.jpg");
+    background-position: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+#locations .sectiontitle {
+    background-color: transparent;
+    flex-basis: 1200px;
+}
+
+#locations .sectionItem {
+    flex-basis: 300px;
+}
+
+/* information */
+
+#information {
+    text-align: center;
+    height: 200px;
+    flex-basis: 1200px;
+}
+
+
+/* footer */
+footer{
+    margin: 20px
+}
