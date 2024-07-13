@@ -197,6 +197,12 @@ main{
   width: 100%;
 }
 
+@media only screen and (max-width: 1346px){
+  #assessorGallery .card{
+    margin-top: 2rem;
+  }
+}
+
 /* resources */
 
 #resources{
@@ -218,7 +224,6 @@ main{
 }
 
 #resources .card {
-  flex-wrap: nowrap;
   width: 35rem;
   justify-content: space-between;
   align-items: center;
