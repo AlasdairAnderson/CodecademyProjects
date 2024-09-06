@@ -14,6 +14,8 @@ Check credit card numbers to see whether or not they are vaild or not. This proj
     </ol></li>
     <li>Create a function <code>findInvalidCard()</code> that has one parameter for a nested array of credit card numbers. The role of this function is to check through the nested array for which numbers are invalid, and return another nested array of invalid cards.</li>
     <li>Create a function <code>idInvalidCardCompanies()</code> that has one parameter for a nested array of invalid numbers and returns an array of companies. This function returns an array of companies that have provided cards with invalid numbers. This return array should not have doublicates.</li>
+    <li>Create a function <code>stringToArray()</code> that has one parameter for a string. This function will return an array of numbers that can then be used to check whether the card is valid or not.</li>
+    <li>Create a function <code>convertInvalid()</code> that has two parameters for the invalid card array and the sum resulting from the <strong>Luhn algorithm</strong>. This fuction will convert the invalid card array into a valid one and return the coverted array.</li>
 </ul>
 
 Currently, there are 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
