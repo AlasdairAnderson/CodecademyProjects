@@ -19,10 +19,10 @@ Check credit card numbers to see whether or not they are vaild or not. This proj
 Currently, there are 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
 <table>
     <thead>
-        <th>
-        <td>First Digit</td>
-        <td>Company</td>
-        </th>
+        <tr>
+            <th>First Digit</th>
+            <th>Company</th>
+        </tr>
     </thead>
     <tbody>
         <tr>
