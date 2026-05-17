@@ -1,0 +1,12 @@
+{
+  "name": "findmyhattui",
+  "version": "1.0.0",
+  "description": "TUI game about finding a hat in a field.",
+  "license": "ISC",
+  "author": "AlasdairAnderson",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "test"
+  }
+}
